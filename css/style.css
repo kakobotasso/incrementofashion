@@ -104,6 +104,161 @@ body{
 #guardaNuvens{
     float:left;
     width:100%;
-    height: 356px;
     background:url("img/nuvem.png") no-repeat center 185px;
+}
+
+#guardaBgHome{
+    float:left;
+    width:100%;
+    background:url("img/bg-slider.png") no-repeat center 290px;
+}
+
+#guardaSliderHome{
+    float: left;
+    width:940px;
+    height:350px;
+    padding:0px 0px 75px 42px;
+    position:relative;
+}
+
+#guardaSliderHome .setasHome{
+    float: left;
+    width:60px;
+    height:60px;
+    position:absolute;
+    top:144px;
+    background:url("img/setas-slider.png") no-repeat 0px 0px;
+    z-index:2;
+}
+
+#guardaSliderHome #setaAnt{ left:74px; }
+#guardaSliderHome #setaProx{
+    right:32px;
+    background-position:-819px 0px;
+}
+
+#guardaSliderHome #sliderHome{
+    float:left;
+    position:relative;
+}
+
+#guardaSliderHome #sliderHome img{
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+#newsProjetos{
+    float:left;
+    padding:0px 0px 90px 41px;
+}
+
+#newsProjetos #projetosPersonalizados{
+    float:left;
+    width:435px;
+}
+
+#newsProjetos #projetosPersonalizados p{
+    float:left;
+    width:390px;
+    font-family:"Georgia";
+    font-size:16px;
+    color:#571e2e;
+    padding:10px 0px 0px 30px;
+}
+
+#newsProjetos #projetosPersonalizados p strong{
+    font-weight:bold;
+    font-size:22px;
+}
+
+#newsProjetos #projetosPersonalizados a{
+    float:left;
+    display:inline-block;
+    margin:3px 0px 0px 28px;
+}
+
+#newsProjetos #nossaNewsletter{
+    float:left;
+    width:370px;
+    padding:10px 0px 0px 47px;
+}
+
+#newsProjetos #nossaNewsletter form{
+    float:left;
+    padding:30px 0px 0px 15px;
+}
+#newsProjetos #nossaNewsletter form input{
+    float:left;
+    width:312px;
+    background:url("img/bg-input-newsletter.png") no-repeat 0px 0px;
+    font-size:12px;
+    font-family:"Arial"; 
+    padding:11px 20px;
+}
+
+#newsProjetos #nossaNewsletter form #btCadastrarNews{
+    float:right;
+    padding:5px 0px 0px 0px;
+}
+
+/* FOOTER */
+#footer{
+    float:left;
+    width:100%;
+    height:123px;
+    background:url("img/bg-rodape.jpg") repeat-x 0px 0px;
+}
+
+#footer #direitosRodape{
+    float:left;
+    padding:40px 0px 0px 60px;
+}
+
+#footer #direitosRodape p{
+    float:left;
+    font-family:"Georgia";
+    font-size:12px;
+    color:#461b25;
+}
+
+#footer #direitosRodape p span{ font-size:22px; }
+
+#footer #guardaCurtir{
+    float:right;
+    padding:45px 26px 0px 0px;
+}
+
+
+/*
+*++*
+    SOBRE
+*++*
+*/
+#guardaSobreAIncremento{
+    width:874px;
+    margin:0 auto;
+}
+
+#guardaSobreAIncremento .titulo{
+    float: left;
+    padding:0px 0px 0px 270px;
+}
+
+#guardaSobreAIncremento #sobreAIncremento{
+    float:left;
+    padding:85px 0px 25px 0px;
+}
+
+#guardaSobreAIncremento #sobreAIncremento p{
+    float:left;
+    font-family:"Georgia";
+    font-size:18px;
+    color:#505050;
+    padding:0px 0px 25px 0px;
+}
+
+#guardaSobreAIncremento #sobreAIncremento p strong{
+    font-size:23px;
+    font-weight:bold;
 }
