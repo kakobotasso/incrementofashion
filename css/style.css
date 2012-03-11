@@ -139,10 +139,18 @@ body{
 
 #guardaSliderHome #sliderHome{
     float:left;
+    overflow:hidden;
+    position:relative;
+    width:940px;
+    height:350px;
+}
+
+#guardaSliderHome #sliderHome li{
+    display:none;
     position:relative;
 }
 
-#guardaSliderHome #sliderHome img{
+#guardaSliderHome #sliderHome a img{
     position:absolute;
     top:0px;
     left:0px;
@@ -435,4 +443,137 @@ body{
 #textoDireitaContato p strong{
     font-weight:bold;
     font-size:22px;
+}
+
+/*
+*++*
+    PRODUTOS
+*++*
+*/
+#introducaoProduto{
+    float:left;
+    width:100%;
+    height:260px;
+    position:relative;
+}
+#introducaoProduto p{
+    float:left;
+    width:375px;
+    text-align:right;
+    font-family:"Georgia";
+    font-size:16px;
+    color:#571e2e;
+}
+#introducaoProduto p strong{
+    font-size:23px;
+    font-weight:bold;
+}
+#introducaoProduto img{
+    float:left;
+    position:absolute;
+    top:-42px;
+    right:-90px;
+}
+
+#guardaColecoes{
+    float:left;
+    width:890px;
+    text-align:center;
+}
+#guardaColecoes ul{
+    width:850px;
+    margin:0 auto;
+}
+#guardaColecoes ul li{
+    float:left;
+    padding:0px 3px 3px 0px;
+}
+#guardaColecoes ul li a{
+    color:#fff;
+    text-decoration:none;
+}
+#guardaColecoes ul li a span{cursor:pointer;}
+
+#guardaColecoes ul li a span.ladoEsqCol{
+    width:6px;
+    height:29px;
+    float:left;
+    background:url("img/esq-tipo-produto.png") no-repeat 0px -30px;
+}
+#guardaColecoes ul li a span.nomeCol{
+    float:left;
+    background:#5c1f2f;
+    color:#fff;
+    padding:5px 10px 4px 10px;
+    *padding:5px 10px 5px 10px;
+    _padding:5px 10px 5px 10px;
+}
+#guardaColecoes ul li a span.ladoDirCol{
+    width:6px;
+    height:29px;
+    float:left;
+    background:url("img/dir-tipo-produto.png") no-repeat 0px -30px;
+}
+#guardaColecoes ul li a.marcado span.ladoEsqCol,
+#guardaColecoes ul li a:hover span.ladoEsqCol{ background-position: 0px 0px; }
+#guardaColecoes ul li a.marcado span.nomeCol,
+#guardaColecoes ul li a:hover span.nomeCol{ background:#9c3a53; }
+#guardaColecoes ul li a.marcado span.ladoDirCol,
+#guardaColecoes ul li a:hover span.ladoDirCol{ background-position: 0px 0px; }
+
+#imagemColecao{
+    float:left;
+    display:inline-block;
+    border:1px solid #c9c9c9;
+    width:893px;
+    height:390px;
+    position:relative;
+    margin:16px 0px 0px 0px;
+}
+
+#imagemColecao #imagemProdutoColecao{
+    float:left;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+
+#imagemColecao .setas{
+    float:left;
+    position:absolute;
+    top:1px;
+    display:none;
+}
+
+#imagemColecao #esquerdaProduto{  left:1px; }
+#imagemColecao #direitaProduto{  right:1px; }
+
+#guardaThumbs{
+    float:left;
+    padding:3px 0px 40px 0px;
+}
+#guardaThumbs ul{
+    float:left;
+    width:890px;
+}
+#guardaThumbs ul li{
+    float:left;
+    padding:0px 1px 1px 0px;
+}
+
+#guardaThumbs ul li.ultima{ padding-right:0px; }
+
+#guardaThumbs ul li a{
+    float:left;
+    width:95px;
+    height:95px;
+    background:url("img/bg-thumb-produto.png") no-repeat 0px 0px;
+    padding:2px 0px 0px 3px;
+}
+
+#guardaThumbs ul li a.marcado{
+    width:94px;
+    height:93px;
+    padding:0px;
+    border:2px solid #5c1f2f;
 }
